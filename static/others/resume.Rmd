@@ -1,0 +1,233 @@
+---
+title: "Phung Khanh Lam's resume"
+author: Phung Khanh Lam
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+![Phung Khanh Lam](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> phungkhanhlam@gmail.com
+- <i class="fa fa-envelope"></i> lampk.orientrcu@gmail.com
+- <i class="fa fa-github"></i> [github.com/lampk](https://github.com/lampk)
+- <i class="fa fa-phone"></i> +1 000-000-0000
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Experienced in analyzing RCT, prognostic studies, studies involving missing data and or longitudinal data.
+
+- Highly skilled in R, LaTeX
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Lam Phung Khanh {#title}
+--------------------------------------------------------------------------------
+
+### Postdoctoral Researcher, 
+### Biostatistics group, Oxford University Clinical Research Unit (OUCRU), Vietnam
+
+I have had a longstanding interest in both adolescent mental health and clinical research. Currently, there are two main research areas that I am interested in: 
+
+(1) improving decision-making and clinical judgement of medical doctors in limited-resources settings by developing and applying clinical prognostic models, 
+(2) identifying factors encouraging development of psychological resilience in adolescents living with HIV or other chronic diseases.
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Medicine and Pharmacy at Ho Chi Minh City
+
+MD, General Medicine
+
+Ho Chi Minh City, Vietnam
+
+2003 - 2009
+
+### The Open University (UK)
+
+PhD, Life and Biomolecular Sciences
+
+Milton Keynes, United Kingdom
+
+2011 - 2015
+
+Thesis: Prediction models in dengue
+
+### École de Psychologues Practiciens (EPP, France) and University of Medicine and Pharmacy at Ho Chi Minh City (UMP-HCM)
+
+Diplôme Universitaire: Introduction to psychotherapy
+
+Ho Chi Minh City, Vietnam
+
+2016 - 2018
+
+Research/Professional Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Research Assistant
+
+OUCRU, Biostatistics group
+
+Ho Chi Minh City, Vietnam
+
+2010
+
+- checked and cleaned clinical database from a big dengue cohort.
+- supported colleagues at OUCRU on R programing and basic statistical analysis.
+
+### PhD Student
+
+OUCRU, Biostatistics group, 
+
+Ho Chi Minh City, Vietnam
+
+2011 - 2015
+
+- worked on my PhD project.
+- attended related courses in Vietnam and Europe. 
+- presented my work on several local and international scientific conferences on biostatistics and tropical medicine.
+- provided statistical supports to colleague, ranging from explaining statistical concepts, helping with R programming to discussing on study design, calculating sample size, and analyzing data (both observational studies and RCT).
+- co-authored on several papers from various projects conducted at OUCRU that I contributed as statisticians.
+- helped to prepare materials, tutor on R programming, and lecture on several topics in the Introduction to Biostatistics course for PhD student in OUCRU, and other short courses on basic biostatistics for clinical doctors from Hospital for Tropical Diseases and Children Hospital Number 1.
+
+### Postdoctoral Researcher, Biostatistician
+
+OUCRU, Biostatistics group, 
+
+Ho Chi Minh City, Vietnam
+
+2015-2020
+
+- conducted data analysis for research projects.
+- supervised junior biostatisticians.
+- provided statistical supports to colleagues.
+- involved in teaching basic biostatistics courses.
+- peer-review for journals.
+
+### Visiting Scientist
+
+Centre for Health and Wellbeing and the Psychology Department at Princeton University
+
+NJ, USA
+
+2018
+
+- attended courses and seminars
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Introduction to Biostatistics.
+
+Teaching Assistant and do English to Vietnamese Translation of Lectures for the course jointly organized by Pasteur Institute & Oxford University Clinical Research Unit
+
+Pasteur Institute, Ho Chi Minh City, Vietnam
+
+2012
+
+### Basic biostatistical concepts.
+
+Lecturer
+
+OUCRU, Ho Chi Minh City, Vietnam
+
+2013
+
+### Introduction to Clinical Research.
+
+Lecturer
+
+Children Hospital Number 2, Ho Chi Minh City, Vietnam
+
+2014
+
+### Introduction to Biostatistics.
+
+Lecturer
+
+OUCRU, Ho Chi Minh City, Vietnam
+
+2014
+
+### Advanced Biostatistics workshop on longitudinal data analysis and missing data.
+
+Tutor
+
+MOCRU, Bangkok, Thailand
+
+2016
+
+### Advanced Biostatistics workshop on advanced survival methods.
+
+Tutor
+
+MOCRU, Bangkok, Thailand
+
+2017
+
+### Applied Epidemiology.
+
+Lecturer
+
+Pasteur Institute, Ho Chi Minh City, Vietnam
+
+2018
+
+### Basic Statistics for Clinical research.
+
+Lecturer
+
+Hospital for Tropical Diseases, Ho Chi Minh City, Vietnam
+
+2018
+
+Awards – Fellowships {data-icon=award}
+--------------------------------------------------------------------------------
+
+Supersivion {data-icon=hands-helping}
+--------------------------------------------------------------------------------
+
+
+
+Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+### Reasons for not using modern contraceptive methods and demands for reproductive health care in adolescents who had abortion at Tu Du hospital during 05- 06/2009.
+
+Y hoc TP. Ho Chi Minh; 14(S1): 290-5 (Vietnamese).
+
+N/A
+
+2010
+
+Tran Thi Loi, *Phung Khanh Lam*
+
+Presentation {data-icon=slideshare}
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width">
+<meta property="og:title" content="Bài giảng Dịch tễ học bệnh lây qua vectơ" />
+
+
+
+
+<meta name="author" content="Phùng Khánh Lâm, Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM, lampk@ump.edu.vn" />
+
+<meta name="date" content="2020-03-18" />
+
+<meta name="description" content="Bài giảng Dịch tễ học bệnh lây qua vectơ">
+
+<script id="pandoc-meta" type="application/json">
+{"newpage_html_class":"page-break-after","bibliography":["reference.bib"],"date":"2020-03-18","output":{"pagedown::book_crc":{"self_contained":false,"toc":true}},"author":"Phùng Khánh Lâm, Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM,\n<a href=\"mailto:lampk@ump.edu.vn\" class=\"email\">lampk@ump.edu.vn</a>","knit":"pagedown::chrome_print","title":"Bài giảng Dịch tễ học bệnh lây qua vectơ"}
+</script>
+
+<title>Bài giảng Dịch tễ học bệnh lây qua vectơ</title>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function() {
+  // Retrieve previous config object if defined
+  window.PagedConfig = window.PagedConfig || {};
+  let beforePaged = PagedConfig.before;
+  window.PagedConfig.before = async () => {
+    if (beforePaged) await beforePaged();
+    return new Promise((resolve, reject) => {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      var src = `https://mathjax.rstudio.com/latest/MathJax.js` + "?config=TeX-MML-AM_CHTML";
+      if (location.protocol !== "file:" && /^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+      script.src = src;
+      window.MathJax = {
+        AuthorInit: () => {
+          MathJax.Hub.Register.StartupHook("Begin", () => {
+            MathJax.Hub.Queue(resolve);
+          });
+        }
+      };
+      document.getElementsByTagName("head")[0].appendChild(script);
+    });
+  };
+})();
+</script>
+
+<link href="BaiGiang_DTHTN_Vecto_files/paged-0.8.1/css/crc-page.css" rel="stylesheet" />
+<link href="BaiGiang_DTHTN_Vecto_files/paged-0.8.1/css/default-page.css" rel="stylesheet" />
+<link href="BaiGiang_DTHTN_Vecto_files/paged-0.8.1/css/default.css" rel="stylesheet" />
+<link href="BaiGiang_DTHTN_Vecto_files/paged-0.8.1/css/crc.css" rel="stylesheet" />
+<script src="BaiGiang_DTHTN_Vecto_files/paged-0.8.1/js/config.js"></script>
+<script src="BaiGiang_DTHTN_Vecto_files/paged-0.8.1/js/paged.js"></script>
+<script src="BaiGiang_DTHTN_Vecto_files/paged-0.8.1/js/hooks.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+<div class="running-h1-title"></div>
+
+<div class="running-h2-title"></div>
+
+
+
+<div class="front-page">
+<div id="header" class="title-page">
+<h1 class="title">Bài giảng Dịch tễ học bệnh lây qua vectơ</h1>
+<h2 class="author">Phùng Khánh Lâm, Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM,
+<a href="mailto:lampk@ump.edu.vn" class="email">lampk@ump.edu.vn</a></h2>
+<h2 class="date">2020-03-18</h2>
+</div>
+</div>
+
+<div class="front-matter-container">
+<div id="TOC" class="level1 toc front-matter">
+<ul>
+<li><a href="#giới-thiệu"><span class="toc-section-number">1</span> Giới thiệu</a></li>
+<li><a href="#dây-chuyền-lây-của-các-bệnh-lây-qua-vectơ"><span class="toc-section-number">2</span> Dây chuyền lây của các bệnh lây qua vectơ</a><ul>
+<li><a href="#nguồn-bệnh"><span class="toc-section-number">2.1</span> Nguồn bệnh</a></li>
+<li><a href="#tác-nhân-gây-bệnh"><span class="toc-section-number">2.2</span> Tác nhân gây bệnh</a></li>
+<li><a href="#cách-thức-lây"><span class="toc-section-number">2.3</span> Cách thức lây</a></li>
+</ul></li>
+<li><a href="#các-biện-pháp-phòng-chống-bệnh-lây-qua-vectơ"><span class="toc-section-number">3</span> Các biện pháp phòng chống bệnh lây qua vectơ</a><ul>
+<li><a href="#kiểm-soát-nguồn-bệnh"><span class="toc-section-number">3.1</span> Kiểm soát nguồn bệnh</a></li>
+<li><a href="#kiểm-soát-vectơ"><span class="toc-section-number">3.2</span> Kiểm soát vectơ</a></li>
+<li><a href="#bảo-vệ-túc-chủ-cảm-nhiễm"><span class="toc-section-number">3.3</span> Bảo vệ túc chủ cảm nhiễm</a></li>
+</ul></li>
+<li><a href="#dịch-tễ-học-bệnh-sốt-dengue"><span class="toc-section-number">4</span> Dịch tễ học bệnh sốt dengue</a><ul>
+<li><a href="#giới-thiệu-1"><span class="toc-section-number">4.1</span> Giới thiệu</a><ul>
+<li><a href="#chẩn-đoán-và-điều-trị"><span class="toc-section-number">4.1.1</span> Chẩn đoán và điều trị</a></li>
+</ul></li>
+<li><a href="#một-số-đặc-điểm-dịch-tễ-học"><span class="toc-section-number">4.2</span> Một số đặc điểm dịch tễ học</a><ul>
+<li><a href="#gánh-nặng-bệnh-tật"><span class="toc-section-number">4.2.1</span> Gánh nặng bệnh tật</a></li>
+<li><a href="#cách-thức-lây-1"><span class="toc-section-number">4.2.2</span> Cách thức lây</a></li>
+<li><a href="#túc-chủ-cảm-thụ"><span class="toc-section-number">4.2.3</span> Túc chủ cảm thụ</a></li>
+</ul></li>
+<li><a href="#các-biện-pháp-kiểm-soát-và-phòng-ngừa-bệnh"><span class="toc-section-number">4.3</span> Các biện pháp kiểm soát và phòng ngừa bệnh</a><ul>
+<li><a href="#giám-sát-bệnh-nhân"><span class="toc-section-number">4.3.1</span> Giám sát bệnh nhân</a></li>
+<li><a href="#chủng-ngừa"><span class="toc-section-number">4.3.2</span> Chủng ngừa</a></li>
+<li><a href="#kiểm-soát-vectơ-1"><span class="toc-section-number">4.3.3</span> Kiểm soát vectơ</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#tài-liệu-tham-khảo">Tài liệu tham khảo</a></li>
+</ul>
+</div>
+</div>
+
+<div class="main">
+<p>2020-03-18</p>
+<p>Mục tiêu</p>
+<ul>
+<li><p>Mô tả được quá trình lây nhiễm của các bệnh lây qua vectơ.</p></li>
+<li><p>Trình bày được các biện pháp phòng chống đối với các bệnh lây qua vectơ.</p></li>
+<li><p>Mô tả được các đặc điểm dịch tễ học của bệnh sốt dengue: nguồn bệnh, cách thức lây, tính nhạy cảm và sức đề kháng của túc chủ cảm thụ.</p></li>
+<li><p>Trình bày được các biện pháp dự phòng và kiểm soát bệnh sốt dengue.</p></li>
+</ul>
+<div id="giới-thiệu" class="section level1">
+<h1><span class="header-section-number">1</span> Giới thiệu</h1>
+<p>Vectơ là những động vật không xương sống, bị nhiễm tác nhân gây bệnh từ người hoặc động vật mắc bệnh, và sau đó lây truyền bệnh đến túc chủ cảm nhiễm <span class="citation">(Alexander Krämer 2010)</span>. Các vector điển hình là côn trùng hoặc các động vật chân đốt (như muỗi).</p>
+<p>Các bệnh lây qua vectơ phân bố chủ yếu ở những nước nhiệt đới và cận nhiệt đới: sốt rét, sốt Dengue, SXHD, bệnh giun chỉ…, và thường lưu hành ở vùng cư trú tự nhiên của vectơ. Bệnh có tính chất gây dịch theo mùa phù hợp với thời điểm phát triển của vectơ, ví dụ như dịch sốt dengue thường xảy ra vào mùa mưa là thời điểm thuận lợi cho muỗi <em>Aedes aegypti</em> phát triển.</p>
+</div>
+<div id="dây-chuyền-lây-của-các-bệnh-lây-qua-vectơ" class="section level1">
+<h1><span class="header-section-number">2</span> Dây chuyền lây của các bệnh lây qua vectơ</h1>
+<div id="nguồn-bệnh" class="section level2">
+<h2><span class="header-section-number">2.1</span> Nguồn bệnh</h2>
+<p>Thường là người (như sốt dengue, sốt rét, …) hoặc động vật:</p>
+<ul>
+<li>Các loài linh trưởng: ổ bệnh sốt vàng</li>
+<li>Chuột: ổ bệnh dịch hạch</li>
+<li>Chim: ổ bệnh viêm não Nhật Bản</li>
+</ul>
+</div>
+<div id="tác-nhân-gây-bệnh" class="section level2">
+<h2><span class="header-section-number">2.2</span> Tác nhân gây bệnh</h2>
+<p>Nhiều tác nhân gây bệnh có thể lây truyền qua vectơ, bao gồm:</p>
+<ul>
+<li>Virus: viêm não Nhật Bản, sốt dengue, sốt vàng</li>
+<li>Vi khuẩn: sốt phát ban chấy rận, sốt mò, sốt hồi quy</li>
+<li>Ký sinh đơn bào: sốt rét, bệnh do nhiễm Leishmania</li>
+<li>Giun: bệnh giun chỉ Onchocerca</li>
+</ul>
+</div>
+<div id="cách-thức-lây" class="section level2">
+<h2><span class="header-section-number">2.3</span> Cách thức lây</h2>
+<p>Sau khi bị nhiễm tác nhân gây bệnh từ nguồn bệnh (hoặc đôi khi từ thế hệ trước qua trứng), vectơ có thể lây truyền tác nhân gây bệnh qua hai cơ chế chính:</p>
+<ul>
+<li><p>Lây truyền thụ động (cơ học đơn thuần): chuyên chở đơn thuần tác nhân ngây bệnh trên chân, vòi, thải qua đường tiêu hoá của vectơ đến túc chủ cảm thụ. Không có giai đoạn ủ bệnh và tác nhân gây bệnh không nhân lên trong cơ thể vectơ. Cách lây truyền này không đặc hiệu và không hiệu quả.</p></li>
+<li><p>Lây truyền chủ động (sinh học): tác nhân gây bệnh nhân lên hoặc phát triển trong cơ thể vectơ. Cách lây truyền này hiệu quả hơn, nhưng chỉ áp dụng được đối với một số tác nhân và vectơ nhất định.</p></li>
+</ul>
+<p>Việc lây truyền bị ảnh hưởng bởi vòng đời của vectơ. Các loài chân đốt thường có vòng đời gồm nhiều giai đoạn phát triển:</p>
+<ul>
+<li>Trứng</li>
+<li>Ấu trùng</li>
+<li>Giai đoạn trưởng thành</li>
+</ul>
+</div>
+</div>
+<div id="các-biện-pháp-phòng-chống-bệnh-lây-qua-vectơ" class="section level1">
+<h1><span class="header-section-number">3</span> Các biện pháp phòng chống bệnh lây qua vectơ</h1>
+<p>Các biện pháp phòng chống bệnh bao gồm:</p>
+<ul>
+<li>Kiểm soát nguồn bệnh</li>
+<li>Kiểm soát vectơ</li>
+<li>Bảo vệ túc chủ cảm thụ</li>
+</ul>
+<div id="kiểm-soát-nguồn-bệnh" class="section level2">
+<h2><span class="header-section-number">3.1</span> Kiểm soát nguồn bệnh</h2>
+<p>Bao gồm các biện pháp nhằm phát hiện và cách ly nguồn bệnh để tránh lây nhiễm cho vectơ, ví dụ như:</p>
+<ul>
+<li>Nuôi súc vật xa nhà</li>
+<li>Người nhiễm dengue phải nằm mùng để tránh lây nhiễm cho muỗi Aedes</li>
+</ul>
+</div>
+<div id="kiểm-soát-vectơ" class="section level2">
+<h2><span class="header-section-number">3.2</span> Kiểm soát vectơ</h2>
+<p>Bao gồm các biện pháp kiểm soát để giữ cho quần thể vectơ ở dưới mức lây truyền hiệu quả, ví dụ như:</p>
+<ul>
+<li>Phun hoá chất diệt tiết túc trưởng thành</li>
+<li>Kiểm soát giai đoạn ấu trùng
+<ul>
+<li>Vệ sinh môi trường</li>
+<li>Hóa chất và sinh học</li>
+</ul></li>
+</ul>
+<p>Để hiệu quả, các biện pháp này thường phải đi kèm với giáo dục sức khỏe và kêu gọi sự tham gia của cộng đồng.</p>
+</div>
+<div id="bảo-vệ-túc-chủ-cảm-nhiễm" class="section level2">
+<h2><span class="header-section-number">3.3</span> Bảo vệ túc chủ cảm nhiễm</h2>
+<p>Bao gồm chủng ngừa và các biện pháp bảo vệ cá nhân như:</p>
+<ul>
+<li>Nằm mùng tránh muỗi</li>
+<li>Bôi hóa chất đuổi côn trùng</li>
+</ul>
+</div>
+</div>
+<div id="dịch-tễ-học-bệnh-sốt-dengue" class="section level1">
+<h1><span class="header-section-number">4</span> Dịch tễ học bệnh sốt dengue</h1>
+<div id="giới-thiệu-1" class="section level2">
+<h2><span class="header-section-number">4.1</span> Giới thiệu</h2>
+<p>Dengue là một trong những bệnh nhiệt đới bị lãng quên (neglected tropical diseases) quan trọng nhất trên thế giới với số ca mắc tăng gấp 30 lần trong thập kỷ qua <span class="citation">(Guzman, MG 2016)</span>. Bệnh gây ra do virus dengue, và lây truyền qua muỗi Aedes aegypti. Bệnh lưu hành trong vùng lưu hành của muỗi Aedes và virus dengue, chủ yếu ở phía Đông Địa Trung Hải, châu Mĩ, Đông Nam Á, châu Phi và phía Tây Thái Bình Dương. Những năm gần đây đã xuất hiện những ca bệnh tại Mĩ và châu Âu.</p>
+<p>Tác nhân gây bệnh là virus dengue, với 4 nhóm huyết thanh: 1, 2, 3, 4. Theo phân loại năm 2009 của Tổ chức Y tế thế giới, về lâm sàng sốt dengue được chia làm hai bệnh cảnh chính: sốt dengue có/không có dấu hiệu cảnh báo và sốt dengue nặng. Phân loại này nhấn mạnh đến hai cơ chế sinh bệnh chính của sốt dengue là thoát huyết tương và bất thường về đông cầm máu. Hầu hết người nhiễm bệnh có biểu hiện nhẹ và tự khỏi; tuy nhiên, thể bệnh nặng có thể đưa đến tử vong với các biến chứng sốc giảm thể tích, xuất huyết, suy đa tạng. Tại Việt Nam, tỷ lệ tử vong ở những ca sốc sốt dengue dưới 1% <span class="citation">(Lam, PK 2013)</span>.</p>
+<div id="chẩn-đoán-và-điều-trị" class="section level3">
+<h3><span class="header-section-number">4.1.1</span> Chẩn đoán và điều trị</h3>
+<p>Chẩn đoán sốt dengue dựa vào yếu tố dịch tễ học (đến từ vùng lưu hành bệnh), triệu chứng lâm sàng và cận lâm sàng. Triệu chứng lâm sàng thường gồm sốt và các triệu chứng không đặc hiệu khác. Dấu hiệu cận lâm sàng quan trọng là giảm số lượng bạch cầu, giảm số lượng tiểu cầu và tăng dung tích hồng cầu.</p>
+<p>Để chẩn đoán xác định bệnh, có thể dùng test nhanh NS1 hoặc PCR để phát hiện kháng nguyên virus trong giai đoạn sớm. Ngoài ra có thể chẩn đoán dựa vào thay đổi huyêt thanh học về kháng thể IgG và IgM.</p>
+<p>Hiện vẫn chưa có điều trị đặc hiệu cho sốt dengue. Điều trị hiện tại chủ yếu dựa vào điều trị triệu chứng và truyền dịch cho những trường hợp có biểu hiện nặng.</p>
+</div>
+</div>
+<div id="một-số-đặc-điểm-dịch-tễ-học" class="section level2">
+<h2><span class="header-section-number">4.2</span> Một số đặc điểm dịch tễ học</h2>
+<div id="gánh-nặng-bệnh-tật" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Gánh nặng bệnh tật</h3>
+<p>Dengue là bệnh nhiễm trùng virus lây qua muỗi phổ biến nhất trên thế giới. Bệnh gây ra gánh nặng về bệnh tật và kinh tế to lớn, với ước tính là 1.14 triệu DALYs và 8.9 tỉ USD vào 2013. Có khoảng 4 tỉ người trên 128 quốc gia có nguy cơ mắc bệnh, dù chỉ khoảng 25% số ca bệnh có triệu chứng.</p>
+<p>Năm 2013, tỷ suất lưu hành của bệnh là 810.1 (khoảng không chắc chắn 95% 327.4-1690.8) cho mỗi 100 000 người, cao nhất ở nhóm tuổi 10-14 (1175.6 [475.5-2451.8]) rồi giảm dần theo tuổi <span class="citation">(Stanaway, JD 2016)</span>. Tỷ suất tử vong là 1.27 (0.79-1.52) cho mỗi 100 000 người, cao nhất ở nhóm sơ sinh (5.21 [2.43-7.20]) giảm dần đến nhóm tuổi 45-49 (0.53 [0.39-0.60]) rồi tăng trở lại đến 3.03 (2.10-3.69) ở nhóm tuổi <span class="math inline">\(\geq\)</span> 80.</p>
+<div class="figure"><span id="fig:figure1"></span>
+<img src="figures/Dengue_incidence.jpg" alt="Tần suất mới mắc của dengue (cho mỗi triệu người-năm), năm 2013  [Nguồn: @stanaway2016]" width="100%" />
+<p class="caption">
+Figure 4.1: Tần suất mới mắc của dengue (cho mỗi triệu người-năm), năm 2013 <span class="citation">(Nguồn: Stanaway, JD 2016)</span>
+</p>
+</div>
+<div class="figure"><span id="fig:figure2"></span>
+<img src="figures/Dengue_mortality.jpg" alt="Tần suất tử vong của dengue (cho mỗi triệu người-năm), năm 2013  [Nguồn: @stanaway2016]" width="100%" />
+<p class="caption">
+Figure 4.2: Tần suất tử vong của dengue (cho mỗi triệu người-năm), năm 2013 <span class="citation">(Nguồn: Stanaway, JD 2016)</span>
+</p>
+</div>
+<p>Tại Việt Nam, vụ dịch sốt dengue đầu tiên xảy ra vào năm 1958, được báo cáo vào năm 1959. Ở miền nam, dịch dengue được báo cáo đầu tiên vào năm 1960 với 60 trẻ tử vong. Theo báo cáo của Viện Vệ sinh dịch tễ trung ương, năm 2017 (tính đến 13/09/2017) có 124986 ca với 24 ca tử vong. Bệnh lưu hành cả thành thị và nông thôn, tại vùng châu thổ Sông Hồng, sông Cửu Long, dọc theo bờ biển miền Trung, nhưng không xuất hiện ở vùng núi, cao nguyên phía bắc. Do đặc điểm địa lý khí hậu khác nhau giữa các miền, bệnh xuất hiện quanh năm ở miền Nam và miền Trung, nhưng thường xuất hiện từ tháng 4 đến tháng 11 tại miền Bắc và Tây Nguyên.</p>
+</div>
+<div id="cách-thức-lây-1" class="section level3">
+<h3><span class="header-section-number">4.2.2</span> Cách thức lây</h3>
+<p>Virus dengue lây truyền chủ yếu qua vectơ trung gian là muỗi. Tuy nhiên, bệnh cũng có thể lây truyền theo cách thức không qua vectơ như qua truyền máu, ghép tạng hay kim chích <span class="citation">(Wilder-Smith, A 2019)</span>. Lây truyền dọc từ mẹ sang con thường gặp ở mẹ ở giai đoạn có virus cao trong máu khi sinh <span class="citation">(Wilder-Smith, A 2019)</span>.</p>
+<p><em>Aedes aegypti</em> xuất hiện ở châu Mỹ qua quá trình mua bán nô lệ vào những năm 1600 và lan truyền khắp thế giới khi ngành công nghiệp vận chuyển được mở rộng <span class="citation">(Guzman, MG 2016)</span>. Loài muỗi này sống gần với người, hút máu người, ở trong nhà, và đẻ trứng trong các dụng cụ chứa nước nhân tạo <span class="citation">(Guzman, MG 2016)</span>. Đây là vectơ quan trọng nhất của sốt dengue tại thành phố. Trung bình muỗi cái sống trong 1 tuần, nhưng một số con có thể sống trên 2 tuần. Muỗi thường đậu ở nơi ít ánh sáng, có hơi ẩm, và thường đốt mồi vào ban ngày (cao điểm vào sáng sớm và xế chiều). Muỗi có tầm bay xa 100-150m quanh khu vực đẻ trứng. Thời gian phát triển của ấu trùng khoảng 10-15 ngày phụ thuộc vào: nhiệt độ môi trường (thích hợp nhất ở 25<span class="math inline">\(^\circ\)</span> C), thức ăn, mật độ ấu trùng.</p>
+<p>Sau khi hút máu người bệnh trong giai đoạn bệnh cấp tính (có virus lưu hành nhiều trong máu), muỗi cái bị nhiễm virus <span class="citation">(Guzman, MG 2016)</span>. Trong quá trình ủ bệnh ngoại sinh, virus sẽ nhiễm vào tế bào ruột giữa của muỗi sau đó phát tán và nhân lên trong các mô của muỗi, đặc biệt là nhiễm vào tuyến nước bọt sau 5-12 ngày. Khi tuyến nước bọt bị nhiễm virus, muỗi có thể truyền virus sang người khác khi hút máu. Lây truyền dọc (vertical transmission) có thể xảy ra khi muỗi cái truyền virus qua trứng đến thế hệ sau. Trong cơ thể người, thời gian từ khi nhiễm virus đến khi khởi phát triệu chứng bệnh (giai đoạn ủ bệnh nội sinh) thường từ 3 đến 14 ngày.</p>
+<div class="figure"><span id="fig:figure3"></span>
+<img src="figures/Dengue_cycle.png" alt="Sự phát triển của virus trong người và muỗi [Nguồn: @guzman2016]" width="100%" />
+<p class="caption">
+Figure 4.3: Sự phát triển của virus trong người và muỗi <span class="citation">(Nguồn: Guzman, MG 2016)</span>
+</p>
+</div>
+<p>Ngoài muỗi <em>Aedes aegypti</em>, virus dengue còn được lây truyền qua muỗi <em>Aedes albopictus</em>. Muỗi này có nguồn gốc châu Á, và là vectơ truyền virus dengue quan trọng ở nông thôn và miền núi. Muỗi này thường đốt người trưởng thành ngoài nhà và ấu trùng thường phát triển ở các vật chứa nước tự nhiên như hốc cây, vỏ dừa, thân tre cụt.</p>
+</div>
+<div id="túc-chủ-cảm-thụ" class="section level3">
+<h3><span class="header-section-number">4.2.3</span> Túc chủ cảm thụ</h3>
+<p>Ai cũng có thể mắc bệnh. Ở vùng dịch lưu hành thường xuyên trẻ nhỏ thường mắc bệnh. Tuy nhiên, ở lần nhiễm đầu tiên, bệnh thường nhẹ, thường không triệu chứng. Ở lần nhiễm sau, với các nhóm huyết thanh khác, bệnh thường nặng – dễ vào sốc.</p>
+<p>4 yếu tố chính ảnh hưởng đến đáp ứng của bệnh là <span class="citation">(Guzman, MG 2016)</span>:</p>
+<ul>
+<li>Tình trạng miễn dịch: nhiễm bệnh lần đầu thường nhẹ, nhưng nhiễm bệnh lần thứ hai thường nặng, do hiện tượng tăng cường phụ thuộc kháng thể (ADE, antibody-dependent enhancement).</li>
+<li>Chủng virus: nhiễm bệnh lần thứ hai với nhóm huyết thanh 2 thường nặng hơn so với các nhóm huyết thanh khác.</li>
+<li>Bộ gen: một số gen có liên quan đến độ nặng của bệnh</li>
+<li>Tuổi: ở lần nhiễm đầu, tuổi càng cao độ nặng càng cao; ở lần nhiễm thứ hai, tuổi càng nhỏ độ nặng càng cao.</li>
+</ul>
+</div>
+</div>
+<div id="các-biện-pháp-kiểm-soát-và-phòng-ngừa-bệnh" class="section level2">
+<h2><span class="header-section-number">4.3</span> Các biện pháp kiểm soát và phòng ngừa bệnh</h2>
+<div id="giám-sát-bệnh-nhân" class="section level3">
+<h3><span class="header-section-number">4.3.1</span> Giám sát bệnh nhân</h3>
+<p>Nhằm mục đích phát hiện sớm dịch. Sự xuất hiện dịch sốt dengue liên quan đến</p>
+<ul>
+<li>Mật độ muỗi và sự có mặt của người nhiễm.</li>
+<li>Sự di chuyển của người bệnh đóng vai trò quan trọng hơn trong sự lan xa bệnh vì muỗi Aedes có tầm bay ngắn.</li>
+</ul>
+<p>Chương trình giám sát ca bệnh tại Việt Nam bao gồm:</p>
+<ul>
+<li>Giám sát các ca sốt: theo dõi số ca sốt, phát hiện sự gia tăng các trường hợp sốt.</li>
+<li>Chẩn đoán sốt dengue: dựa vào triệu chứng lâm sàng và các xét nghiệm cận lâm sàng.</li>
+</ul>
+</div>
+<div id="chủng-ngừa" class="section level3">
+<h3><span class="header-section-number">4.3.2</span> Chủng ngừa</h3>
+<p>Cơ chế miễn dịch chống lại virus dengue vẫn chưa được hiểu rõ. Kháng thể tạo ra trong quá trình nhiễm bệnh có tác dụng bảo vệ suốt đời với cùng chủng virus gây bệnh, nhưng chỉ có tác dụng bảo vệ ngắn hạn với các chủng huyết thanh còn lại <span class="citation">(Guzman, MG 2016)</span>. Việc phát triển các vaccine dengue an toàn và có hiệu quả bảo vệ đầy đủ vấp phải một số khó khăn sau <span class="citation">(Guzman, MG 2016)</span>:</p>
+<ul>
+<li>Vaccine phải bảo vệ cùng lúc khỏi cả 4 chủng huyết thanh.</li>
+<li>Tác dụng bảo vệ phải lâu dài, nếu không người được chủng ngừa có nguy cơ mắc bệnh nặng hơn nếu bị nhiễm bệnh khi tác dụng chủng ngừa đã bị giảm.</li>
+<li>Chưa có mô hình nghiên cứu trên động vật có thể mô phỏng chính xác bệnh dengue trên người.</li>
+<li>Các vaccine phải được đánh giá trong điều kiện thay đổi về khả năng lây truyền bệnh và chủng virus lưu hành.</li>
+</ul>
+<p>Một vài loại vaccine dengue đang được nghiên cứu nhưng cho đến nay, chưa có vaccine nào chính thức được sử dụng.</p>
+</div>
+<div id="kiểm-soát-vectơ-1" class="section level3">
+<h3><span class="header-section-number">4.3.3</span> Kiểm soát vectơ</h3>
+<p>Sự gia tăng về gánh nặng bệnh tật và sự mở rộng phạm vi lưu hành của bệnh cho thấy những biện pháp kiểm soát vectơ hiện đang được sư dụng tại nhiều nước trên thế giới là không hiệu quả <span class="citation">(Guzman, MG 2016)</span>. Nguyên nhân thất bại có thể do sự thiếu quan tâm đúng mức của các chính phủ để tập trung đủ nguồn lực, cũng như những giới hạn trong việc sử dụng các chất diệt muỗi hiệu quả và việc sử dụng các công cụ kiểm soát muỗi không hợp lý.</p>
+<p>Tuy nhiên, có hai quốc gia ngoại lệ là Singapore và Cuba. Chương trình kiểm soát <em>Aedes agypti</em> tại Singapore đã thành công trong việc ngăn ngừa dịch bùng phát trong gần 20 năm. Chương trình này được triển khai từ năm 1968 với 3 thành phần chính <span class="citation">(Guzman, MG 2016)</span>:</p>
+<ul>
+<li>Luật pháp: phạt cá nhân có nhà/cơ sở có muỗi <em>Aedes agypti</em></li>
+<li>Làm giảm và kiểm soát nguồn ấu trùng muỗi</li>
+<li>Tiếp cận và giáo dục cộng đồng</li>
+</ul>
+<p>Mặc dù chương trình này vẫn hiệu quả trong việc kiểm soát <em>Aedes agypti</em>, chương trình vẫn thất bại trong việc ngăn chặn sự lây truyền virus dengue trỗi dậy. Lý do của việc lây truyền virus dengue trở lại vẫn chưa được hiểu rõ, và có thể do nhiều nguyên nhân như: miễn dịch cộng đồng thấp, sự xâm nhập của các ca nhiễm từ các nước lưu hành bệnh cao trong khu vực, mật độ dân cư đông.</p>
+<p>Chương trình kiểm soát vectơ của Cuba được tiến hành từ năm 1981, với ba thành phần giống chương trình của Singapore và thành phần thứ tư là phun thuốc diệt muỗi trên diện rộng <span class="citation">(Guzman, MG 2016)</span>. Dịch dengue được kiểm soát tại Cuba trong khoảng 30 năm trước khi thất bại, có thể do vấn đề về kinh tế và sự xâm nhập của các ca nhiễm từ các nước lưu hành bệnh cao trong khu vực.</p>
+<p>Từ những ví dụ này có thể thấy rằng:</p>
+<ul>
+<li>Một chương trình kiểm soát vectơ bền vững cần có sự hợp tác giữa các quốc gia có bệnh lưu hành.</li>
+<li>Một chương trình kiểm soát vectơ bền vững cần có sự cam kết lâu dài của từng quốc gia.</li>
+<li>Để hiệu quả, các công cụ kiểm soát muỗi phải được sử dụng hợp lý bởi người được đào tạo.</li>
+</ul>
+<p><em>Các biện pháp kiểm soát vectơ mới</em></p>
+<p>Các biện pháp kiểm soát vectơ mới bao gồm <span class="citation">(Guzman, MG 2016)</span>:</p>
+<ul>
+<li>sử dụng các thuốc diệt muỗi mới (cả trong và ngoài nhà) kết hợp với kiểm soát ấu trùng muỗi,</li>
+<li>kiểm soát sinh học (bằng Wolbachia)</li>
+<li>kiểm soát di truyền học (dùng muỗi đực không có khả năng sinh sản)</li>
+</ul>
+<p>Về kiểm soát sinh học, một chủng Wolbachia, vốn là một vi khuẩn sống ký sinh tự nhiên trên cơ thể của côn trùng, được lây nhiễm cho muỗi <em>Aedes agypti</em>. Khi bị nhiễm, muỗi <em>Aedes agypti</em> cái bị rút ngắn tuổi thọ và miễn nhiễm với virus dengue, từ đó giúp ngăn chặn sự lây truyền bệnh. Khi được thả trong môi trường tự nhiên, Wolbachia sẽ được lan truyền thông qua giao phối tự nhiên giữa muỗi đực và muỗi cái, và từ đó có thể tạo ra sự kiểm soát bền vững. Biện pháp này đang được thử nghiệm tại nhiều nước ở châu Mỹ, châu Đại Dương và châu Á, trong đó có Việt Nam (tỉnh Khánh Hoà).</p>
+<p>Về kiểm soát di truyền học, muỗi đực không có khả năng sinh sản được thả vào môi trường tự nhiên rồi qua giao phối với muỗi cái bình thường sẽ làm giảm số lượng muỗi trong quần thể. Cách này có thể làm giảm nhanh chóng số lượng muỗi nhưng không bền vững. Biện pháp này hiện nay cũng đang được thử nghiệm.</p>
+<p>Hiện tại không một biện pháp riêng rẽ nào cho thấy có đủ khả năng để kiểm soát dengue, tuy nhiên nếu được kết hợp với nhau một cách hợp lý, mục tiêu kiểm soát bệnh hiệu quả có thể đạt được.</p>
+<p><em>Biện pháp kiểm soát vectơ tại Việt Nam</em></p>
+<p>Tại Việt Nam, kiểm soát vectơ truyền bệnh được thực hiện bằng phương pháp truyền thông GDSK cho cộng đồng</p>
+<ul>
+<li>Giảm vật chứa nước</li>
+<li>Đậy nắp các vật chứa nước</li>
+<li>Sử dụng các biện pháp sinh học diệt vectơ</li>
+<li>Sử dụng hóa chất: hạt các chứa temephos 1%</li>
+</ul>
+<p>Trong thời gian có dịch cần giảm nhanh mật độ muỗi trưởng thành để cắt đứt đường truyền virus</p>
+<ul>
+<li>Diệt muỗi trưởng thành: phun hóa chất malathion, fenitrothion có bán kính ít nhất 100m từ nhà người nhiễm</li>
+<li>Xử lý hóa chất nên nhắc lại sau 7-10 ngày</li>
+<li>Diệt bọ gậy/lăng quăng</li>
+</ul>
+<p>Ngoài ra còn thực hiện việc điều tra muỗi trên thực địa nhằm xác định</p>
+<ul>
+<li>Mật độ</li>
+<li>Sự phân bố theo thời gian và không gian</li>
+<li>Tính nhạy cảm với các thuốc diệt côn trùng</li>
+</ul>
+<p>Các chỉ số giám sát muỗi Aedes trưởng thành bao gồm:</p>
+<ul>
+<li>Chỉ số mật độ muỗi: số muỗi cái trung bình trong một nhà điều tra
+<ul>
+<li>CSMĐM (con/nhà): <span class="math inline">\(\frac{\text{Số muỗi cái bắt được}}{\text{Số nhà điều tra}}\)</span></li>
+</ul></li>
+<li>Chỉ số nhà có muỗi: tỷ lệ nhà có muỗi cái trưởng thành
+<ul>
+<li>CSNCM (%): <span class="math inline">\(\frac{\text{Số nhà có muỗi cái Aedes}}{\text{Số nhà điều tra}} \times 100\)</span></li>
+</ul></li>
+<li>Chỉ số nhà có bọ gậy/lăng quăng: tỷ lệ nhà có bọ gậy/lăng quăng
+<ul>
+<li>CSNCBG (%): <span class="math inline">\(\frac{\text{Số nhà có bọ gậy, lăng quăng}}{\text{Số nhà điều tra}} \times 100\)</span></li>
+</ul></li>
+<li>Chỉ số dụng cụ chứa nước (DCCN) có bọ gậy/lăng quăng: tỷ lệ DCCN có bọ gậy/lăng quăng
+<ul>
+<li>CSDCCN (%): <span class="math inline">\(\frac{\text{Số DCCN có bọ gậy/lăng quăng}}{\text{Số DCCN}} \times 100\)</span></li>
+</ul></li>
+<li>Chỉ số Breteau (BI): số DCCN có bọ gậy/lăng quăng trên số nhà điều tra
+<ul>
+<li>CSBI (%): <span class="math inline">\(\frac{\text{Số DCCN có bọ gậy/lăng quăng}}{\text{Số nhà điều tra}} \times 100\)</span></li>
+</ul></li>
+<li>Chỉ số mật độ bọ gậy/lăng quăng: số lượng bọ gậy/lăng quăng trung bình trên 1 nhà điều tra
+<ul>
+<li>CSMĐBG (%): <span class="math inline">\(\frac{\text{Số bọ gậy, lăng quăng thu được}}{\text{Số nhà điều tra}} \times 100\)</span></li>
+</ul></li>
+</ul>
+<p>Yếu tố nguy cơ cao bao gồm:</p>
+<ul>
+<li>Miền Nam: chỉ số mật độ muỗi <span class="math inline">\(\geq\)</span> 0,5 con/nhà hoặc chỉ số BI <span class="math inline">\(\geq\)</span> 30</li>
+<li>Miền Bắc: chỉ số mật độ muỗi <span class="math inline">\(\geq\)</span> 0,5 con/nhà hoặc chỉ số BI <span class="math inline">\(\geq\)</span> 20</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="tài-liệu-tham-khảo" class="section level1 unnumbered">
+<h1>Tài liệu tham khảo</h1>
+<div id="refs" class="references">
+<div id="ref-kramer2010">
+<p>Alexander Krämer, Klaus Krickeberg, Mirjam Kretzschmar. 2010. <em>Modern Infectious Disease Epidemiology: Concepts, Methods, Mathematical Models, and Public Health</em>. Springer.</p>
+</div>
+<div id="ref-guzman2016">
+<p>Guzman, MG, Izquierdo, A, Gubler, DJ. 2016. “Dengue Infection.” <em>Nature Reviews. Disease Primers</em> 2: 16055. <a href="https://doi.org/10.1038/nrdp.2016.55">https://doi.org/10.1038/nrdp.2016.55</a>.</p>
+</div>
+<div id="ref-lam2013">
+<p>Lam, PK, Diet, TV, Tam, DTH. 2013. “Clinical Characteristics of Dengue Shock Syndrome in Vietnamese Children: A 10-Year Prospective Study in a Single Hospital.” <em>Clinical Infectious Diseases</em> 57 (11): 1577–86. <a href="https://doi.org/10.1093/cid/cit594">https://doi.org/10.1093/cid/cit594</a>.</p>
+</div>
+<div id="ref-stanaway2016">
+<p>Stanaway, JD, Undurraga, EA, Shepard, DS. 2016. “The Global Burden of Dengue: An Analysis from the Global Burden of Disease Study 2013.” <em>The Lancet Infectious Diseases</em> 16 (6): 712–23. <a href="https://doi.org/10.1016/S1473-3099(16)00026-8">https://doi.org/10.1016/S1473-3099(16)00026-8</a>.</p>
+</div>
+<div id="ref-wilder2019">
+<p>Wilder-Smith, A, Horstick, O, Ooi, EE. 2019. “Dengue.” <em>The Lancet</em> 393 (10169): 350–63. <a href="https://doi.org/10.1016/S0140-6736(18)32560-1">https://doi.org/10.1016/S0140-6736(18)32560-1</a>.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script>
+// when the page is about to reload via servr, remember the scroll position
+document.addEventListener('servr:reload', function(e) {
+  sessionStorage.setItem('pagedown-scroll', window.scrollY);
+});
+</script>
+</body>
+</html>

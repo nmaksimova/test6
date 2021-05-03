@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://lampk.github.io/website/tags/misc/</loc>
+    <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/tags/misc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/tags/misc/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/posts/misc/</loc>
+    <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/posts/misc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/posts/misc/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/</loc>
+    <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/posts/</loc>
+    <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/tags/</loc>
+    <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/categories/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/post/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/post/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/categories/r/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/tags/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/cv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/cv/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lampk.github.io/website/resources/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="https://lampk.github.io/website/vn/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lampk.github.io/website/resources/"
+                />
+  </url>
+  
+</urlset>
